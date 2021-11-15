@@ -17,7 +17,8 @@ SOURCES += \
 HEADERS += \
     devmenu.h \
     devwindow.h \
-    menu1.h
+    menu1.h \
+    trackingclasses.h
 
 FORMS += \
     devmenu.ui \
