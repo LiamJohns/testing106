@@ -6,7 +6,12 @@ devMenu::devMenu(QWidget *parent) :
     ui(new Ui::devMenu)
 {
     ui->setupUi(this);
+
+
+
+
 }
+
 
 devMenu::~devMenu()
 {

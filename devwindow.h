@@ -24,10 +24,13 @@ public:
 private slots:
 
  void on_enterBtn_clicked();
+ void on_togglePass_stateChanged(int i);
 
 
 
 
+
+ void on_checkBox_stateChanged(int arg1);
 
 private:
     Ui::devwindow *ui;
