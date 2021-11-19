@@ -14,64 +14,12 @@
    <string>menu1</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="devBtn">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>160</y>
-      <width>121</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Dev</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="testLogin">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>210</y>
-      <width>121</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Tester</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="adminBtn">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>260</y>
-      <width>121</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Admin</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="exitBtn">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>310</y>
-      <width>121</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Exit</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>80</y>
-      <width>311</width>
+      <x>200</x>
+      <y>10</y>
+      <width>351</width>
       <height>81</height>
      </rect>
     </property>
@@ -81,7 +29,33 @@
      </font>
     </property>
     <property name="text">
-     <string>Capital bug defect tracker</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#0000ff;&quot;&gt;Capital bug defect tracker&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="devBtn">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>90</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Login </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitBtn">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>160</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
     </property>
    </widget>
   </widget>

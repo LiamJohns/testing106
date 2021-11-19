@@ -20,12 +20,9 @@ menu1::~menu1()
 
 void menu1::on_devBtn_clicked(){
 
-    window= new devwindow(this);
+    window = new devwindow(this);
     window->show();
 
 
 
-
 }
-
-
