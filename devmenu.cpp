@@ -17,3 +17,15 @@ devMenu::~devMenu()
 {
     delete ui;
 }
+
+void devMenu::on_viewDefBtn_clicked(){
+    this->close();
+}
+
+void devMenu::on_reportDefBtn_clicked(){
+    this->close();
+}
+
+void devMenu::on_logOutBtn_clicked(){
+    this->close();
+}
