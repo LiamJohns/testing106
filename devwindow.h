@@ -25,7 +25,7 @@ private slots:
 
  void on_enterBtn_clicked();
  void on_togglePass_stateChanged(int i);
-
+a
 
 
 
