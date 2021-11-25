@@ -9,6 +9,7 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    adddefect.cpp \
     defecttracker.cpp \
     devmenu.cpp \
     devwindow.cpp \
@@ -16,12 +17,14 @@ SOURCES += \
     menu1.cpp
 
 HEADERS += \
+    adddefect.h \
     defecttracker.h \
     devmenu.h \
     devwindow.h \
     menu1.h
 
 FORMS += \
+    adddefect.ui \
     defecttracker.ui \
     devmenu.ui \
     devwindow.ui \

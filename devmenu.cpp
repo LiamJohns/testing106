@@ -1,5 +1,6 @@
 #include "devmenu.h"
 #include "ui_devmenu.h"
+#include "adddefect.h"
 
 devMenu::devMenu(QWidget *parent) :
     QDialog(parent),
@@ -23,7 +24,8 @@ void devMenu::on_viewDefBtn_clicked(){
 }
 
 void devMenu::on_reportDefBtn_clicked(){
-    this->close();
+    window3= new addDefect(this);
+    window3->show();
 }
 
 void devMenu::on_logOutBtn_clicked(){
