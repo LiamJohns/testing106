@@ -26,7 +26,7 @@ QString pass = ui->passEdit->text();
 
 
 if( user=="Dev" && pass=="dev" ){
-
+    this->close();
   window2= new devMenu(this);
 window2->show();
 
