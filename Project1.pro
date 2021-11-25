@@ -9,17 +9,20 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    defecttracker.cpp \
     devmenu.cpp \
     devwindow.cpp \
     main.cpp \
     menu1.cpp
 
 HEADERS += \
+    defecttracker.h \
     devmenu.h \
     devwindow.h \
     menu1.h
 
 FORMS += \
+    defecttracker.ui \
     devmenu.ui \
     devwindow.ui \
     menu1.ui
