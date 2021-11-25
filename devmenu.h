@@ -15,6 +15,11 @@ public:
     explicit devMenu(QWidget *parent = nullptr);
     ~devMenu();
 
+private slots:
+    void on_viewDefBtn_clicked();
+    void on_reportDefBtn_clicked();
+    void on_logOutBtn_clicked();
+
 private:
     Ui::devMenu *ui;
 };
