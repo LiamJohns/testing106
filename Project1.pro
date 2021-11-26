@@ -21,7 +21,8 @@ HEADERS += \
     defecttracker.h \
     devmenu.h \
     devwindow.h \
-    menu1.h
+    menu1.h \
+    trackingclasses.h
 
 FORMS += \
     adddefect.ui \
