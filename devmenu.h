@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include "adddefect.h"
+#include "defecttracker.h"
 
 namespace Ui {
 class devMenu;
@@ -24,6 +25,7 @@ private slots:
 private:
     Ui::devMenu *ui;
     addDefect *window3;
+    defectTracker *window4;
 };
 
 #endif // DEVMENU_H
