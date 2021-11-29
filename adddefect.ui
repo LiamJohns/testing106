@@ -57,7 +57,7 @@
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QLineEdit" name="lineEdit"/>
+     <widget class="QLineEdit" name="idEdit"/>
     </item>
     <item row="1" column="0">
      <widget class="QLabel" name="label_3">
@@ -72,7 +72,7 @@
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit_2"/>
+     <widget class="QLineEdit" name="nameEdit"/>
     </item>
     <item row="2" column="0">
      <widget class="QLabel" name="label_4">
@@ -87,7 +87,7 @@
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QLineEdit" name="lineEdit_3"/>
+     <widget class="QLineEdit" name="statusEdit"/>
     </item>
     <item row="3" column="0">
      <widget class="QLabel" name="label_7">
@@ -114,7 +114,7 @@
      </widget>
     </item>
     <item row="4" column="1">
-     <widget class="QLineEdit" name="lineEdit_4"/>
+     <widget class="QLineEdit" name="reportedEdit"/>
     </item>
     <item row="5" column="0">
      <widget class="QLabel" name="label_6">
@@ -129,10 +129,10 @@
      </widget>
     </item>
     <item row="5" column="1">
-     <widget class="QLineEdit" name="lineEdit_5"/>
+     <widget class="QLineEdit" name="priorityEdit"/>
     </item>
     <item row="3" column="1">
-     <widget class="QTextEdit" name="textEdit"/>
+     <widget class="QTextEdit" name="descEdit"/>
     </item>
    </layout>
   </widget>

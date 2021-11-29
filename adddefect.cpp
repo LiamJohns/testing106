@@ -20,5 +20,5 @@ void addDefect::on_backBtn_clicked(){
 
 void addDefect::on_submitBtn_clicked(){
     this->close();
-    QMessageBox::information(this, "Defect Report","Defect report has been submitted.");
+    QMessageBox::information(this, "Report Defect","Defect report has been submitted.");
 }
