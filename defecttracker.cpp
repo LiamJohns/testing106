@@ -1,12 +1,26 @@
 #include "defecttracker.h"
 #include "ui_defecttracker.h"
 #include "adddefect.h"
+#include <QString>
+#include "trackingclasses.h"
+
+//Defect d;
 
 defectTracker::defectTracker(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::defectTracker)
 {
     ui->setupUi(this);
+
+
+
+
+
+//    QString id = d.get_id();
+//    ui->lineEdit->setText(id);
+
+
+
 }
 
 defectTracker::~defectTracker()

@@ -101,6 +101,20 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
+        <widget class="QComboBox" name="comboBox">
+         <item>
+          <property name="text">
+           <string>Id</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>name</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
         <widget class="QLineEdit" name="lineEdit">
          <property name="text">
           <string>Defect info: </string>
